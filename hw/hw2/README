@@ -1,0 +1,42 @@
+******************************************************************************
+* HW02: iii
+* CS40 Fall 2022
+* README
+* Author: Valerie Zhang vzhang02 Tim Valk tvalk01
+******************************************************************************
+
+Program Purpose
+----------------
+    
+
+Compile/run:
+-----------
+
+
+Acknowledgments:
+---------------
+     We'd like to thank Randy and Neil for helping us with UArray2_new, and Tina and Kenny for helping us understand apply functions. 
+    
+Files:
+-----
+    
+
+    unit_tests.h: unit_test file with all tests coded for each member function
+
+    Makefile: file to build the program
+
+    This file gives informations on the program including the files, the 
+    testing done, and the data structure used. It also includes 
+    acknowledgements for helped received. 
+
+Data Structures:
+---------------
+    The main data structure of this program is an 
+
+Testing:
+-------
+
+
+Time Spent
+------------
+I spent a total of (fill here) hours on this assignment.
