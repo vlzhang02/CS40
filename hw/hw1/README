@@ -1,0 +1,35 @@
+******************************************************************************
+* HW01: filesofpix 
+* CS40 Fall 2022
+* README
+* Author: Valerie Zhang vzhang02 and Siara Small ssmall04
+******************************************************************************
+
+Acknowledgments:
+---------------
+     
+    We'd like to thank Christopher for clarifying data structure and the spec.
+    We'd also like to thank Lexi for clarifying void pointers and Hansons 
+    interface for lists. We'd like to thank Tina for giving us advice on 
+    list_map and Cecelia for guiding us through debugging a segmentation 
+    fault with readaline. We'd also like to thank Matt for helping with 
+    general debugging of our program. We'd like to extend a big thank you to 
+    Bridget, Kresten, Trevor, and Matt who stayed with us for multiple hours 
+    trying to debug various issues. 
+
+Implementation
+------------
+    We couldn't correctly restore turing-corrupt and sail-corrupt. We believe 
+    our implementation could not correctly handle null characters injected into
+    the original lines. This would cause our program to identify multiple 
+    possible sequences of non-digit characters. We believe this messed with the
+    width of each line, causing the squiggly slant appearance of the "restored"
+    image. Sail-corrupt.pgm was also wrong in its identification of the 
+    "correct" pattern of non-digit characters and thus was not restored 
+    properly. If we had more time, we would love to fix this bug!
+    
+    We believe our implementation correctly restores every other image.
+
+Time Spent
+------------
+We spent a total of over 55 hours on this assignment.
